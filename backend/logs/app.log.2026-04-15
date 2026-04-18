@@ -1,0 +1,76 @@
+2026-04-15 08:36:50 - app.main - INFO - [main.py:28] - Loading scaler from /home/mdialloc19/Bureau/Abdoulaye/python/web_projects/ml-starter/backend/models/standard_scaler.joblib...
+2026-04-15 08:36:50 - app.main - INFO - [main.py:29] - Loading model from /home/mdialloc19/Bureau/Abdoulaye/python/web_projects/ml-starter/backend/models/scaled_logistic_regression_model.joblib...
+2026-04-15 08:37:07 - app.main - INFO - [main.py:35] - Model and scaler loaded successfully with joblib.
+2026-04-15 08:37:07 - app.main - DEBUG - [main.py:40] - Models stored in ml_models dictionary.
+2026-04-15 08:39:47 - app.main - INFO - [main.py:50] - Cleaning up ML models on shutdown...
+2026-04-15 08:39:47 - app.main - DEBUG - [main.py:52] - Models cleared.
+2026-04-15 08:59:26 - app.main - INFO - [main.py:28] - Loading scaler from /home/mdialloc19/Bureau/Abdoulaye/python/web_projects/ml-starter/backend/models/standard_scaler.joblib...
+2026-04-15 08:59:26 - app.main - INFO - [main.py:29] - Loading model from /home/mdialloc19/Bureau/Abdoulaye/python/web_projects/ml-starter/backend/models/scaled_logistic_regression_model.joblib...
+2026-04-15 08:59:39 - app.main - INFO - [main.py:35] - Model and scaler loaded successfully with joblib.
+2026-04-15 08:59:39 - app.main - DEBUG - [main.py:40] - Models stored in ml_models dictionary.
+2026-04-15 09:06:29 - app.main - INFO - [main.py:50] - Cleaning up ML models on shutdown...
+2026-04-15 09:06:29 - app.main - DEBUG - [main.py:52] - Models cleared.
+2026-04-15 09:06:32 - app.main - INFO - [main.py:28] - Loading scaler from /home/mdialloc19/Bureau/Abdoulaye/python/web_projects/ml-starter/backend/models/standard_scaler.joblib...
+2026-04-15 09:06:32 - app.main - INFO - [main.py:29] - Loading model from /home/mdialloc19/Bureau/Abdoulaye/python/web_projects/ml-starter/backend/models/scaled_logistic_regression_model.joblib...
+2026-04-15 09:06:37 - app.main - INFO - [main.py:35] - Model and scaler loaded successfully with joblib.
+2026-04-15 09:06:37 - app.main - DEBUG - [main.py:40] - Models stored in ml_models dictionary.
+2026-04-15 09:06:45 - app.main - INFO - [main.py:50] - Cleaning up ML models on shutdown...
+2026-04-15 09:06:45 - app.main - DEBUG - [main.py:52] - Models cleared.
+2026-04-15 09:06:47 - app.main - INFO - [main.py:28] - Loading scaler from /home/mdialloc19/Bureau/Abdoulaye/python/web_projects/ml-starter/backend/models/standard_scaler.joblib...
+2026-04-15 09:06:47 - app.main - INFO - [main.py:29] - Loading model from /home/mdialloc19/Bureau/Abdoulaye/python/web_projects/ml-starter/backend/models/scaled_logistic_regression_model.joblib...
+2026-04-15 09:06:53 - app.main - INFO - [main.py:35] - Model and scaler loaded successfully with joblib.
+2026-04-15 09:06:53 - app.main - DEBUG - [main.py:40] - Models stored in ml_models dictionary.
+2026-04-15 09:07:24 - app.api.v1.endpoints.predict - DEBUG - [predict.py:17] - Prediction request received: pregnancies=2.0, glucose=120.0
+2026-04-15 09:07:24 - app.api.v1.endpoints.predict - ERROR - [predict.py:27] - ML models not loaded
+2026-04-15 09:07:24 - app.api.v1.endpoints.predict - ERROR - [predict.py:71] - Prediction failed: 503: ML models not loaded. Train the model first using scripts/train_model.py
+Traceback (most recent call last):
+  File "/home/mdialloc19/Bureau/Abdoulaye/python/web_projects/ml-starter/backend/app/api/v1/endpoints/predict.py", line 28, in predict
+    raise HTTPException(
+fastapi.exceptions.HTTPException: 503: ML models not loaded. Train the model first using scripts/train_model.py
+2026-04-15 09:08:08 - app.api.v1.endpoints.predict - DEBUG - [predict.py:17] - Prediction request received: pregnancies=2.0, glucose=120.0
+2026-04-15 09:08:08 - app.api.v1.endpoints.predict - ERROR - [predict.py:27] - ML models not loaded
+2026-04-15 09:08:08 - app.api.v1.endpoints.predict - ERROR - [predict.py:71] - Prediction failed: 503: ML models not loaded. Train the model first using scripts/train_model.py
+Traceback (most recent call last):
+  File "/home/mdialloc19/Bureau/Abdoulaye/python/web_projects/ml-starter/backend/app/api/v1/endpoints/predict.py", line 28, in predict
+    raise HTTPException(
+fastapi.exceptions.HTTPException: 503: ML models not loaded. Train the model first using scripts/train_model.py
+2026-04-15 09:13:16 - app.main - INFO - [main.py:50] - Cleaning up ML models on shutdown...
+2026-04-15 09:13:16 - app.main - DEBUG - [main.py:52] - Models cleared.
+2026-04-15 09:13:19 - app.main - INFO - [main.py:28] - Loading scaler from /home/mdialloc19/Bureau/Abdoulaye/python/web_projects/ml-starter/backend/models/standard_scaler.joblib...
+2026-04-15 09:13:19 - app.main - INFO - [main.py:29] - Loading model from /home/mdialloc19/Bureau/Abdoulaye/python/web_projects/ml-starter/backend/models/scaled_logistic_regression_model.joblib...
+2026-04-15 09:13:25 - app.main - INFO - [main.py:35] - Model and scaler loaded successfully with joblib.
+2026-04-15 09:13:25 - app.main - DEBUG - [main.py:40] - Models stored in ml_models dictionary.
+2026-04-15 09:13:40 - app.main - INFO - [main.py:50] - Cleaning up ML models on shutdown...
+2026-04-15 09:13:40 - app.main - DEBUG - [main.py:52] - Models cleared.
+2026-04-15 09:13:43 - app.main - INFO - [main.py:28] - Loading scaler from /home/mdialloc19/Bureau/Abdoulaye/python/web_projects/ml-starter/backend/models/standard_scaler.joblib...
+2026-04-15 09:13:43 - app.main - INFO - [main.py:29] - Loading model from /home/mdialloc19/Bureau/Abdoulaye/python/web_projects/ml-starter/backend/models/scaled_logistic_regression_model.joblib...
+2026-04-15 09:13:52 - app.main - INFO - [main.py:35] - Model and scaler loaded successfully with joblib.
+2026-04-15 09:13:52 - app.main - DEBUG - [main.py:40] - Models stored in ml_models dictionary.
+2026-04-15 09:14:14 - app.main - INFO - [main.py:50] - Cleaning up ML models on shutdown...
+2026-04-15 09:14:14 - app.main - DEBUG - [main.py:52] - Models cleared.
+2026-04-15 09:14:19 - app.main - INFO - [main.py:28] - Loading scaler from /home/mdialloc19/Bureau/Abdoulaye/python/web_projects/ml-starter/backend/models/standard_scaler.joblib...
+2026-04-15 09:14:19 - app.main - INFO - [main.py:29] - Loading model from /home/mdialloc19/Bureau/Abdoulaye/python/web_projects/ml-starter/backend/models/scaled_logistic_regression_model.joblib...
+2026-04-15 09:14:24 - app.main - INFO - [main.py:35] - Model and scaler loaded successfully with joblib.
+2026-04-15 09:14:24 - app.main - DEBUG - [main.py:40] - Models stored in ml_models dictionary.
+2026-04-15 09:14:30 - app.main - INFO - [main.py:28] - Loading scaler from /home/mdialloc19/Bureau/Abdoulaye/python/web_projects/ml-starter/backend/models/standard_scaler.joblib...
+2026-04-15 09:14:30 - app.main - INFO - [main.py:29] - Loading model from /home/mdialloc19/Bureau/Abdoulaye/python/web_projects/ml-starter/backend/models/scaled_logistic_regression_model.joblib...
+2026-04-15 09:14:37 - app.main - INFO - [main.py:35] - Model and scaler loaded successfully with joblib.
+2026-04-15 09:14:37 - app.main - DEBUG - [main.py:40] - Models stored in ml_models dictionary.
+2026-04-15 09:14:37 - app.api.v1.endpoints.predict - DEBUG - [predict.py:17] - Prediction request received: pregnancies=2.0, glucose=120.0
+2026-04-15 09:14:37 - app.api.v1.endpoints.predict - INFO - [predict.py:58] - Prediction completed: prediction=1, probability=0.8000
+2026-04-15 09:14:37 - app.main - INFO - [main.py:50] - Cleaning up ML models on shutdown...
+2026-04-15 09:14:37 - app.main - DEBUG - [main.py:52] - Models cleared.
+2026-04-15 09:20:43 - app.api.v1.endpoints.predict - DEBUG - [predict.py:17] - Prediction request received: pregnancies=6.0, glucose=148.0
+2026-04-15 09:20:43 - app.api.v1.endpoints.predict - INFO - [predict.py:58] - Prediction completed: prediction=1, probability=0.7719
+2026-04-15 09:20:50 - app.api.v1.endpoints.predict - DEBUG - [predict.py:17] - Prediction request received: pregnancies=6.0, glucose=148.0
+2026-04-15 09:20:50 - app.api.v1.endpoints.predict - INFO - [predict.py:58] - Prediction completed: prediction=1, probability=0.7719
+2026-04-15 09:20:57 - app.api.v1.endpoints.predict - DEBUG - [predict.py:17] - Prediction request received: pregnancies=6.0, glucose=148.0
+2026-04-15 09:20:57 - app.api.v1.endpoints.predict - INFO - [predict.py:58] - Prediction completed: prediction=1, probability=0.7716
+2026-04-15 09:21:06 - app.api.v1.endpoints.predict - DEBUG - [predict.py:17] - Prediction request received: pregnancies=11.0, glucose=148.0
+2026-04-15 09:21:06 - app.api.v1.endpoints.predict - INFO - [predict.py:58] - Prediction completed: prediction=1, probability=0.8197
+2026-04-15 09:21:12 - app.api.v1.endpoints.predict - DEBUG - [predict.py:17] - Prediction request received: pregnancies=11.0, glucose=148.0
+2026-04-15 09:21:12 - app.api.v1.endpoints.predict - INFO - [predict.py:58] - Prediction completed: prediction=1, probability=0.9267
+2026-04-15 09:28:48 - app.api.v1.endpoints.predict - DEBUG - [predict.py:17] - Prediction request received: pregnancies=6.0, glucose=148.0
+2026-04-15 09:28:48 - app.api.v1.endpoints.predict - INFO - [predict.py:58] - Prediction completed: prediction=1, probability=0.7719
+2026-04-15 09:28:49 - app.api.v1.endpoints.predict - DEBUG - [predict.py:17] - Prediction request received: pregnancies=6.0, glucose=148.0
+2026-04-15 09:28:49 - app.api.v1.endpoints.predict - INFO - [predict.py:58] - Prediction completed: prediction=1, probability=0.7719

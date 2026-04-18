@@ -1,0 +1,116 @@
+2026-03-23 10:15:31 - app.main - INFO - [main.py:27] - Loading scaler from /home/mdialloc19/Bureau/Abdoulaye/python/web_projects/ml-starter/models/standard_scaler.joblib...
+2026-03-23 10:15:31 - app.main - INFO - [main.py:28] - Loading model from /home/mdialloc19/Bureau/Abdoulaye/python/web_projects/ml-starter/models/scaled_logistic_regression_model.joblib...
+2026-03-23 10:16:04 - app.main - INFO - [main.py:34] - Model and scaler loaded successfully with joblib.
+2026-03-23 10:16:04 - app.main - DEBUG - [main.py:39] - Models stored in ml_models dictionary.
+2026-03-23 10:20:33 - app.main - INFO - [main.py:49] - Cleaning up ML models on shutdown...
+2026-03-23 10:20:33 - app.main - DEBUG - [main.py:51] - Models cleared.
+2026-03-23 10:20:34 - app.main - INFO - [main.py:28] - Loading scaler from /home/mdialloc19/Bureau/Abdoulaye/python/web_projects/ml-starter/models/standard_scaler.joblib...
+2026-03-23 10:20:34 - app.main - INFO - [main.py:29] - Loading model from /home/mdialloc19/Bureau/Abdoulaye/python/web_projects/ml-starter/models/scaled_logistic_regression_model.joblib...
+2026-03-23 10:20:37 - app.main - INFO - [main.py:35] - Model and scaler loaded successfully with joblib.
+2026-03-23 10:20:37 - app.main - DEBUG - [main.py:40] - Models stored in ml_models dictionary.
+2026-03-23 10:21:11 - app.main - INFO - [main.py:50] - Cleaning up ML models on shutdown...
+2026-03-23 10:21:11 - app.main - DEBUG - [main.py:52] - Models cleared.
+2026-03-23 10:21:13 - app.main - INFO - [main.py:28] - Loading scaler from /home/mdialloc19/Bureau/Abdoulaye/python/web_projects/ml-starter/models/standard_scaler.joblib...
+2026-03-23 10:21:13 - app.main - INFO - [main.py:29] - Loading model from /home/mdialloc19/Bureau/Abdoulaye/python/web_projects/ml-starter/models/scaled_logistic_regression_model.joblib...
+2026-03-23 10:21:16 - app.main - INFO - [main.py:35] - Model and scaler loaded successfully with joblib.
+2026-03-23 10:21:16 - app.main - DEBUG - [main.py:40] - Models stored in ml_models dictionary.
+2026-03-23 10:21:24 - app.api.v1.endpoints.predict - DEBUG - [predict.py:17] - Prediction request received: pregnancies=6.0, glucose=148.0
+2026-03-23 10:21:24 - app.api.v1.endpoints.predict - INFO - [predict.py:58] - Prediction completed: prediction=1, probability=0.7719
+2026-03-23 10:21:33 - app.api.v1.endpoints.predict - DEBUG - [predict.py:17] - Prediction request received: pregnancies=6.0, glucose=148.0
+2026-03-23 10:21:33 - app.api.v1.endpoints.predict - INFO - [predict.py:58] - Prediction completed: prediction=1, probability=0.7719
+2026-03-23 10:21:34 - app.api.v1.endpoints.predict - DEBUG - [predict.py:17] - Prediction request received: pregnancies=6.0, glucose=148.0
+2026-03-23 10:21:34 - app.api.v1.endpoints.predict - INFO - [predict.py:58] - Prediction completed: prediction=1, probability=0.7719
+2026-03-23 10:21:35 - app.api.v1.endpoints.predict - DEBUG - [predict.py:17] - Prediction request received: pregnancies=6.0, glucose=148.0
+2026-03-23 10:21:35 - app.api.v1.endpoints.predict - INFO - [predict.py:58] - Prediction completed: prediction=1, probability=0.7719
+2026-03-23 10:21:36 - app.api.v1.endpoints.predict - DEBUG - [predict.py:17] - Prediction request received: pregnancies=6.0, glucose=148.0
+2026-03-23 10:21:36 - app.api.v1.endpoints.predict - INFO - [predict.py:58] - Prediction completed: prediction=1, probability=0.7719
+2026-03-23 10:21:48 - app.api.v1.endpoints.predict - DEBUG - [predict.py:17] - Prediction request received: pregnancies=17.0, glucose=148.0
+2026-03-23 10:21:48 - app.api.v1.endpoints.predict - INFO - [predict.py:58] - Prediction completed: prediction=1, probability=0.8725
+2026-03-23 10:21:59 - app.api.v1.endpoints.predict - DEBUG - [predict.py:17] - Prediction request received: pregnancies=17.0, glucose=300.0
+2026-03-23 10:21:59 - app.api.v1.endpoints.predict - INFO - [predict.py:58] - Prediction completed: prediction=1, probability=0.9991
+2026-03-23 10:22:07 - app.api.v1.endpoints.predict - DEBUG - [predict.py:17] - Prediction request received: pregnancies=17.0, glucose=300.0
+2026-03-23 10:22:07 - app.api.v1.endpoints.predict - INFO - [predict.py:58] - Prediction completed: prediction=1, probability=1.0000
+2026-03-23 10:22:12 - app.api.v1.endpoints.predict - DEBUG - [predict.py:17] - Prediction request received: pregnancies=17.0, glucose=300.0
+2026-03-23 10:22:12 - app.api.v1.endpoints.predict - INFO - [predict.py:58] - Prediction completed: prediction=1, probability=0.9987
+2026-03-23 10:22:18 - app.api.v1.endpoints.predict - DEBUG - [predict.py:17] - Prediction request received: pregnancies=17.0, glucose=300.0
+2026-03-23 10:22:18 - app.api.v1.endpoints.predict - INFO - [predict.py:58] - Prediction completed: prediction=1, probability=0.9990
+2026-03-23 10:22:26 - app.api.v1.endpoints.predict - DEBUG - [predict.py:17] - Prediction request received: pregnancies=17.0, glucose=300.0
+2026-03-23 10:22:26 - app.api.v1.endpoints.predict - INFO - [predict.py:58] - Prediction completed: prediction=1, probability=0.9979
+2026-03-23 10:22:27 - app.api.v1.endpoints.predict - DEBUG - [predict.py:17] - Prediction request received: pregnancies=17.0, glucose=300.0
+2026-03-23 10:22:27 - app.api.v1.endpoints.predict - INFO - [predict.py:58] - Prediction completed: prediction=1, probability=0.9979
+2026-03-23 10:22:27 - app.api.v1.endpoints.predict - DEBUG - [predict.py:17] - Prediction request received: pregnancies=17.0, glucose=300.0
+2026-03-23 10:22:27 - app.api.v1.endpoints.predict - INFO - [predict.py:58] - Prediction completed: prediction=1, probability=0.9979
+2026-03-23 10:22:27 - app.api.v1.endpoints.predict - DEBUG - [predict.py:17] - Prediction request received: pregnancies=17.0, glucose=300.0
+2026-03-23 10:22:27 - app.api.v1.endpoints.predict - INFO - [predict.py:58] - Prediction completed: prediction=1, probability=0.9979
+2026-03-23 10:22:28 - app.api.v1.endpoints.predict - DEBUG - [predict.py:17] - Prediction request received: pregnancies=17.0, glucose=300.0
+2026-03-23 10:22:28 - app.api.v1.endpoints.predict - INFO - [predict.py:58] - Prediction completed: prediction=1, probability=0.9979
+2026-03-23 10:22:29 - app.api.v1.endpoints.predict - DEBUG - [predict.py:17] - Prediction request received: pregnancies=17.0, glucose=300.0
+2026-03-23 10:22:29 - app.api.v1.endpoints.predict - INFO - [predict.py:58] - Prediction completed: prediction=1, probability=0.9979
+2026-03-23 10:25:58 - app.api.v1.endpoints.predict - DEBUG - [predict.py:17] - Prediction request received: pregnancies=17.0, glucose=300.0
+2026-03-23 10:25:58 - app.api.v1.endpoints.predict - INFO - [predict.py:58] - Prediction completed: prediction=1, probability=0.9979
+2026-03-23 10:27:15 - app.main - INFO - [main.py:50] - Cleaning up ML models on shutdown...
+2026-03-23 10:27:15 - app.main - DEBUG - [main.py:52] - Models cleared.
+2026-03-23 10:33:04 - app.main - INFO - [main.py:28] - Loading scaler from /home/mdialloc19/Bureau/Abdoulaye/python/web_projects/ml-starter/models/standard_scaler.joblib...
+2026-03-23 10:33:04 - app.main - INFO - [main.py:29] - Loading model from /home/mdialloc19/Bureau/Abdoulaye/python/web_projects/ml-starter/models/scaled_logistic_regression_model.joblib...
+2026-03-23 10:33:07 - app.main - INFO - [main.py:35] - Model and scaler loaded successfully with joblib.
+2026-03-23 10:33:07 - app.main - DEBUG - [main.py:40] - Models stored in ml_models dictionary.
+2026-03-23 10:33:16 - app.api.v1.endpoints.predict - DEBUG - [predict.py:17] - Prediction request received: pregnancies=6.0, glucose=148.0
+2026-03-23 10:33:16 - app.api.v1.endpoints.predict - INFO - [predict.py:58] - Prediction completed: prediction=1, probability=0.7719
+2026-03-23 10:33:17 - app.api.v1.endpoints.predict - DEBUG - [predict.py:17] - Prediction request received: pregnancies=6.0, glucose=148.0
+2026-03-23 10:33:17 - app.api.v1.endpoints.predict - INFO - [predict.py:58] - Prediction completed: prediction=1, probability=0.7719
+2026-03-23 10:33:18 - app.api.v1.endpoints.predict - DEBUG - [predict.py:17] - Prediction request received: pregnancies=6.0, glucose=148.0
+2026-03-23 10:33:18 - app.api.v1.endpoints.predict - INFO - [predict.py:58] - Prediction completed: prediction=1, probability=0.7719
+2026-03-23 10:34:15 - app.api.v1.endpoints.predict - DEBUG - [predict.py:17] - Prediction request received: pregnancies=6.0, glucose=148.0
+2026-03-23 10:34:15 - app.api.v1.endpoints.predict - INFO - [predict.py:58] - Prediction completed: prediction=1, probability=0.7719
+2026-03-23 10:34:16 - app.api.v1.endpoints.predict - DEBUG - [predict.py:17] - Prediction request received: pregnancies=6.0, glucose=148.0
+2026-03-23 10:34:16 - app.api.v1.endpoints.predict - INFO - [predict.py:58] - Prediction completed: prediction=1, probability=0.7719
+2026-03-23 10:34:16 - app.api.v1.endpoints.predict - DEBUG - [predict.py:17] - Prediction request received: pregnancies=6.0, glucose=148.0
+2026-03-23 10:34:16 - app.api.v1.endpoints.predict - INFO - [predict.py:58] - Prediction completed: prediction=1, probability=0.7719
+2026-03-23 10:34:16 - app.api.v1.endpoints.predict - DEBUG - [predict.py:17] - Prediction request received: pregnancies=6.0, glucose=148.0
+2026-03-23 10:34:16 - app.api.v1.endpoints.predict - INFO - [predict.py:58] - Prediction completed: prediction=1, probability=0.7719
+2026-03-23 10:34:16 - app.api.v1.endpoints.predict - DEBUG - [predict.py:17] - Prediction request received: pregnancies=6.0, glucose=148.0
+2026-03-23 10:34:16 - app.api.v1.endpoints.predict - INFO - [predict.py:58] - Prediction completed: prediction=1, probability=0.7719
+2026-03-23 10:34:16 - app.api.v1.endpoints.predict - DEBUG - [predict.py:17] - Prediction request received: pregnancies=6.0, glucose=148.0
+2026-03-23 10:34:16 - app.api.v1.endpoints.predict - INFO - [predict.py:58] - Prediction completed: prediction=1, probability=0.7719
+2026-03-23 10:34:16 - app.api.v1.endpoints.predict - DEBUG - [predict.py:17] - Prediction request received: pregnancies=6.0, glucose=148.0
+2026-03-23 10:34:16 - app.api.v1.endpoints.predict - INFO - [predict.py:58] - Prediction completed: prediction=1, probability=0.7719
+2026-03-23 10:34:17 - app.api.v1.endpoints.predict - DEBUG - [predict.py:17] - Prediction request received: pregnancies=6.0, glucose=148.0
+2026-03-23 10:34:17 - app.api.v1.endpoints.predict - INFO - [predict.py:58] - Prediction completed: prediction=1, probability=0.7719
+2026-03-23 10:34:17 - app.api.v1.endpoints.predict - DEBUG - [predict.py:17] - Prediction request received: pregnancies=6.0, glucose=148.0
+2026-03-23 10:34:17 - app.api.v1.endpoints.predict - INFO - [predict.py:58] - Prediction completed: prediction=1, probability=0.7719
+2026-03-23 10:34:17 - app.api.v1.endpoints.predict - DEBUG - [predict.py:17] - Prediction request received: pregnancies=6.0, glucose=148.0
+2026-03-23 10:34:17 - app.api.v1.endpoints.predict - INFO - [predict.py:58] - Prediction completed: prediction=1, probability=0.7719
+2026-03-23 10:34:18 - app.api.v1.endpoints.predict - DEBUG - [predict.py:17] - Prediction request received: pregnancies=6.0, glucose=148.0
+2026-03-23 10:34:18 - app.api.v1.endpoints.predict - INFO - [predict.py:58] - Prediction completed: prediction=1, probability=0.7719
+2026-03-23 10:36:14 - app.api.v1.endpoints.predict - DEBUG - [predict.py:17] - Prediction request received: pregnancies=6.0, glucose=148.0
+2026-03-23 10:36:14 - app.api.v1.endpoints.predict - INFO - [predict.py:58] - Prediction completed: prediction=1, probability=0.7719
+2026-03-23 10:36:22 - app.api.v1.endpoints.predict - DEBUG - [predict.py:17] - Prediction request received: pregnancies=6.0, glucose=149.0
+2026-03-23 10:36:22 - app.api.v1.endpoints.predict - INFO - [predict.py:58] - Prediction completed: prediction=1, probability=0.7777
+2026-03-23 10:36:36 - app.api.v1.endpoints.predict - DEBUG - [predict.py:17] - Prediction request received: pregnancies=25.0, glucose=149.0
+2026-03-23 10:36:36 - app.api.v1.endpoints.predict - INFO - [predict.py:58] - Prediction completed: prediction=1, probability=0.9219
+2026-03-23 10:36:45 - app.api.v1.endpoints.predict - DEBUG - [predict.py:17] - Prediction request received: pregnancies=25.0, glucose=149.0
+2026-03-23 10:36:45 - app.api.v1.endpoints.predict - INFO - [predict.py:58] - Prediction completed: prediction=1, probability=0.9278
+2026-03-23 10:36:54 - app.api.v1.endpoints.predict - DEBUG - [predict.py:17] - Prediction request received: pregnancies=25.0, glucose=149.0
+2026-03-23 10:36:54 - app.api.v1.endpoints.predict - INFO - [predict.py:58] - Prediction completed: prediction=1, probability=0.7490
+2026-03-23 10:37:02 - app.api.v1.endpoints.predict - DEBUG - [predict.py:17] - Prediction request received: pregnancies=25.0, glucose=149.0
+2026-03-23 10:37:02 - app.api.v1.endpoints.predict - INFO - [predict.py:58] - Prediction completed: prediction=1, probability=0.7485
+2026-03-23 10:37:08 - app.api.v1.endpoints.predict - DEBUG - [predict.py:17] - Prediction request received: pregnancies=25.0, glucose=149.0
+2026-03-23 10:37:08 - app.api.v1.endpoints.predict - INFO - [predict.py:58] - Prediction completed: prediction=1, probability=0.7400
+2026-03-23 10:37:14 - app.api.v1.endpoints.predict - DEBUG - [predict.py:17] - Prediction request received: pregnancies=25.0, glucose=20.0
+2026-03-23 10:37:14 - app.api.v1.endpoints.predict - INFO - [predict.py:58] - Prediction completed: prediction=0, probability=0.9631
+2026-03-23 10:37:16 - app.api.v1.endpoints.predict - DEBUG - [predict.py:17] - Prediction request received: pregnancies=25.0, glucose=20.0
+2026-03-23 10:37:16 - app.api.v1.endpoints.predict - INFO - [predict.py:58] - Prediction completed: prediction=0, probability=0.9631
+2026-03-23 10:37:17 - app.api.v1.endpoints.predict - DEBUG - [predict.py:17] - Prediction request received: pregnancies=25.0, glucose=20.0
+2026-03-23 10:37:17 - app.api.v1.endpoints.predict - INFO - [predict.py:58] - Prediction completed: prediction=0, probability=0.9631
+2026-03-23 10:37:17 - app.api.v1.endpoints.predict - DEBUG - [predict.py:17] - Prediction request received: pregnancies=25.0, glucose=20.0
+2026-03-23 10:37:17 - app.api.v1.endpoints.predict - INFO - [predict.py:58] - Prediction completed: prediction=0, probability=0.9631
+2026-03-23 10:37:17 - app.api.v1.endpoints.predict - DEBUG - [predict.py:17] - Prediction request received: pregnancies=25.0, glucose=20.0
+2026-03-23 10:37:17 - app.api.v1.endpoints.predict - INFO - [predict.py:58] - Prediction completed: prediction=0, probability=0.9631
+2026-03-23 10:37:18 - app.api.v1.endpoints.predict - DEBUG - [predict.py:17] - Prediction request received: pregnancies=25.0, glucose=20.0
+2026-03-23 10:37:18 - app.api.v1.endpoints.predict - INFO - [predict.py:58] - Prediction completed: prediction=0, probability=0.9631
+2026-03-23 10:37:18 - app.api.v1.endpoints.predict - DEBUG - [predict.py:17] - Prediction request received: pregnancies=25.0, glucose=20.0
+2026-03-23 10:37:18 - app.api.v1.endpoints.predict - INFO - [predict.py:58] - Prediction completed: prediction=0, probability=0.9631
+2026-03-23 10:37:18 - app.api.v1.endpoints.predict - DEBUG - [predict.py:17] - Prediction request received: pregnancies=25.0, glucose=20.0
+2026-03-23 10:37:18 - app.api.v1.endpoints.predict - INFO - [predict.py:58] - Prediction completed: prediction=0, probability=0.9631
+2026-03-23 10:37:18 - app.api.v1.endpoints.predict - DEBUG - [predict.py:17] - Prediction request received: pregnancies=25.0, glucose=20.0
+2026-03-23 10:37:18 - app.api.v1.endpoints.predict - INFO - [predict.py:58] - Prediction completed: prediction=0, probability=0.9631
